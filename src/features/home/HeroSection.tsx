@@ -7,10 +7,6 @@ import Link from "next/link";
 import AnimatedContent from "../../components/animations/AnimatedContent/AnimatedContent";
 import 'animate.css';
 
-const handleAnimationComplete = () => {
-    console.log('All letters have animated!');
-};
-
 export default function HeroSection() {
     return (
         <div className="px-8 py-10 flex flex-col items-center justify-center">
@@ -45,7 +41,6 @@ export default function HeroSection() {
                 threshold={0.1}
                 rootMargin="-100px"
                 textAlign="center"
-                onLetterAnimationComplete={handleAnimationComplete}
             />
             <SplitText
                 text="with Every Donation"
@@ -59,7 +54,6 @@ export default function HeroSection() {
                 threshold={0.1}
                 rootMargin="-100px"
                 textAlign="center"
-                onLetterAnimationComplete={handleAnimationComplete}
             />
             <SplitText
                 text="Boost your nonprofit's reach with our suite of fundraising tools. Craft compelling campaigns, engage and track all in one place."
@@ -73,7 +67,6 @@ export default function HeroSection() {
                 threshold={0.1}
                 rootMargin="-100px"
                 textAlign="center"
-                onLetterAnimationComplete={handleAnimationComplete}
             />
             <div className="flex flex-row mt-4 md:mt-10">
                 <AnimatedContent
