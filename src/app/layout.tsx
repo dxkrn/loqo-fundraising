@@ -20,7 +20,7 @@ export default function RootLayout({
         className={`${poppins.className} antialiased`}
       >
         <div className="w-screen max-w-screen min-h-screen ">
-          <div className="sticky top-0 left-0 z-99">
+          <div className="sticky top-0 left-0 z-50">
             <PromoBanner />
             <Navbar />
           </div>

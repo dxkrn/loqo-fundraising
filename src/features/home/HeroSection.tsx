@@ -4,7 +4,7 @@ import { bricolageGrotesque, poppins } from "@/app/fonts";
 import SplitText from "@/components/animations/SplitText/SplitText";
 import Image from "next/image";
 import Link from "next/link";
-import AnimatedContent from "../animations/AnimatedContent/AnimatedContent";
+import AnimatedContent from "../../components/animations/AnimatedContent/AnimatedContent";
 import 'animate.css';
 
 const handleAnimationComplete = () => {
