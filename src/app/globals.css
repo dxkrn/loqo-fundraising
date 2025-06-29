@@ -5,11 +5,35 @@
   --foreground: #171717;
 }
 
+@theme {
+  /* Colors - Neutral */
+  --color-neutral-0: #ffffff;
+  --color-neutral-100: #f2f4f7;
+  --color-neutral-200: #eaecf0;
+  --color-neutral-300: #d0d5dd;
+  --color-neutral-400: #98a2b3;
+  --color-neutral-500: #667085;
+  --color-neutral-600: #475467;
+  --color-neutral-700: #344054;
+  --color-neutral-800: #182230;
+  --color-neutral-900: #211145;
+
+  /* Colors - Primary */
+  --color-primary: #7e43ff;
+  --color-primary-thin: #f8f4ff;
+  --color-primary-light: #b6a5da;
+
+  /* Colors - Secondary */
+  --color-secondary: #fddc2b;
+
+  /* Colors - Other */
+  --color-button: #7e43ff;
+  --color-button: #F0E8FF;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,8 +43,26 @@
   }
 }
 
+@layer components {
+  .bg-gradient-cover {
+    @apply bg-gradient-to-b from-[#5F20B0] via-[#8841D3] to-[#B36BF1];
+  }
+
+  .bg-gradient-promo {
+    @apply bg-gradient-to-b from-[#8841D3] via-[#A057E5] to-[#B36BF1];
+  }
+
+  .bg-gradient-footer {
+    @apply bg-gradient-to-b from-[#A057E5] via-[#8841D3] to-[#5F20B0];
+  }
+
+  .bg-gradient-default {
+    @apply bg-gradient-to-b from-[#B36BF1] via-[#A057E5] to-[#5F20B0];
+  }
+
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
 }
