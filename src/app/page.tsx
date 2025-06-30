@@ -1,3 +1,4 @@
+import BenefitSection from "@/features/home/BenefitSection";
 import HeroSection from "@/features/home/HeroSection";
 import PartnerSection from "@/features/home/PartnerSection";
 
@@ -6,6 +7,7 @@ export default function Home() {
     <>
       <HeroSection />
       <PartnerSection />
+      <BenefitSection />
     </>
   );
 }
