@@ -1,5 +1,4 @@
 import { bricolageGrotesque } from "@/app/fonts";
-import SplitText from "@/components/animations/SplitText/SplitText";
 import Image from "next/image";
 
 export default function BenefitSection() {
