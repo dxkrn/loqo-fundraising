@@ -3,9 +3,10 @@
 import { bricolageGrotesque, poppins } from "@/app/fonts";
 import SplitText from "@/components/animations/SplitText/SplitText";
 import Image from "next/image";
-import Link from "next/link";
 import AnimatedContent from "../../components/animations/AnimatedContent/AnimatedContent";
 import 'animate.css';
+import TextBadge from "@/components/TextBadge";
+import { ButtonFilled, ButtonText } from "@/components/Button";
 
 export default function HeroSection() {
     return (
@@ -26,7 +27,7 @@ export default function HeroSection() {
                 threshold={0}
                 delay={0.5}
             >
-                <p className="text-xs px-5 py-2 mb-4 bg-badge rounded-full md:text-base">🚀 Small effort, Make big change</p>
+                <TextBadge text="🚀 Small effort, Make big change" />
             </AnimatedContent>
 
             <SplitText
@@ -68,7 +69,7 @@ export default function HeroSection() {
                 rootMargin="-100px"
                 textAlign="center"
             />
-            <div className="flex flex-row mt-4 md:mt-10">
+            <div className="flex flex-row mt-4 gap-4 md:mt-10">
                 <AnimatedContent
                     distance={80}
                     direction="vertical"
@@ -81,9 +82,7 @@ export default function HeroSection() {
                     threshold={0}
                     delay={0.1}
                 >
-                    <Link href={"#"}>
-                        <p className="text-sm text-neutral-0 px-4 py-3 bg-primary rounded-xl md:px-8 md:text-base hover:opacity-90">Contribute Now</p>
-                    </Link>
+                    <ButtonFilled label="Contribute Now" url="#" />
                 </AnimatedContent>
 
                 <AnimatedContent
@@ -98,9 +97,7 @@ export default function HeroSection() {
                     threshold={0}
                     delay={0.2}
                 >
-                    <Link href={"#"}>
-                        <p className="text-sm text-neutral-900 px-4 py-3 bg-transparent md:px-8 md:text-base rounded-xl">Explore company</p>
-                    </Link>
+                    <ButtonText label="Explore company" url="#" />
                 </AnimatedContent>
             </div>
 

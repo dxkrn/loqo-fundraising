@@ -20,7 +20,7 @@ export default function WhyUsSection() {
                         </div>
                         <p className="text-xs opacity-60 md:text-base ">Your donations directly provide necessities such as food, education</p>
                         <div className="flex items-center gap-1">
-                            <p className="text-xs font-bold md:text-xl">Discover More</p>
+                            <p className="text-xs font-bold md:text-base">Discover More</p>
                             <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                 <path fillRule="evenodd" clipRule="evenodd" d="M11.0774 4.41083C11.4028 4.08539 11.9305 4.08539 12.2559 4.41083L17.2559 9.41083C17.5814 9.73626 17.5814 10.2639 17.2559 10.5893L12.2559 15.5893C11.9305 15.9148 11.4028 15.9148 11.0774 15.5893C10.752 15.2639 10.752 14.7363 11.0774 14.4108L14.6548 10.8334H3.33333C2.8731 10.8334 2.5 10.4603 2.5 10.0001C2.5 9.53984 2.8731 9.16675 3.33333 9.16675H14.6548L11.0774 5.58934C10.752 5.2639 10.752 4.73626 11.0774 4.41083Z" />
                             </svg>
@@ -37,7 +37,7 @@ export default function WhyUsSection() {
                         </div>
                         <p className="text-xs opacity-60 md:text-base ">Every contribution is tracked, showing how your help an tangible </p>
                         <div className="flex items-center gap-1">
-                            <p className="text-xs font-bold md:text-xl">Discover More</p>
+                            <p className="text-xs font-bold md:text-base">Discover More</p>
                             <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                 <path fillRule="evenodd" clipRule="evenodd" d="M11.0774 4.41083C11.4028 4.08539 11.9305 4.08539 12.2559 4.41083L17.2559 9.41083C17.5814 9.73626 17.5814 10.2639 17.2559 10.5893L12.2559 15.5893C11.9305 15.9148 11.4028 15.9148 11.0774 15.5893C10.752 15.2639 10.752 14.7363 11.0774 14.4108L14.6548 10.8334H3.33333C2.8731 10.8334 2.5 10.4603 2.5 10.0001C2.5 9.53984 2.8731 9.16675 3.33333 9.16675H14.6548L11.0774 5.58934C10.752 5.2639 10.752 4.73626 11.0774 4.41083Z" />
                             </svg>
@@ -54,7 +54,7 @@ export default function WhyUsSection() {
                         </div>
                         <p className="text-xs opacity-60 md:text-base "> For every dollar you give, our matching donors will impact of your</p>
                         <div className="flex items-center gap-1">
-                            <p className="text-xs font-bold md:text-xl">Discover More</p>
+                            <p className="text-xs font-bold md:text-base">Discover More</p>
                             <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                 <path fillRule="evenodd" clipRule="evenodd" d="M11.0774 4.41083C11.4028 4.08539 11.9305 4.08539 12.2559 4.41083L17.2559 9.41083C17.5814 9.73626 17.5814 10.2639 17.2559 10.5893L12.2559 15.5893C11.9305 15.9148 11.4028 15.9148 11.0774 15.5893C10.752 15.2639 10.752 14.7363 11.0774 14.4108L14.6548 10.8334H3.33333C2.8731 10.8334 2.5 10.4603 2.5 10.0001C2.5 9.53984 2.8731 9.16675 3.33333 9.16675H14.6548L11.0774 5.58934C10.752 5.2639 10.752 4.73626 11.0774 4.41083Z" />
                             </svg>
@@ -71,7 +71,7 @@ export default function WhyUsSection() {
                         </div>
                         <p className="text-xs opacity-60 md:text-base ">Our pricing model scales with your donation volume and ensures</p>
                         <div className="flex items-center gap-1">
-                            <p className="text-xs font-bold md:text-xl">Discover More</p>
+                            <p className="text-xs font-bold md:text-base">Discover More</p>
                             <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                 <path fillRule="evenodd" clipRule="evenodd" d="M11.0774 4.41083C11.4028 4.08539 11.9305 4.08539 12.2559 4.41083L17.2559 9.41083C17.5814 9.73626 17.5814 10.2639 17.2559 10.5893L12.2559 15.5893C11.9305 15.9148 11.4028 15.9148 11.0774 15.5893C10.752 15.2639 10.752 14.7363 11.0774 14.4108L14.6548 10.8334H3.33333C2.8731 10.8334 2.5 10.4603 2.5 10.0001C2.5 9.53984 2.8731 9.16675 3.33333 9.16675H14.6548L11.0774 5.58934C10.752 5.2639 10.752 4.73626 11.0774 4.41083Z" />
                             </svg>
@@ -89,7 +89,7 @@ export default function WhyUsSection() {
                         </div>
                         <p className="text-xs opacity-60 md:text-base ">PCI and data privacy compliance with encryption and protection against </p>
                         <div className="flex items-center gap-1">
-                            <p className="text-xs font-bold md:text-xl">Discover More</p>
+                            <p className="text-xs font-bold md:text-base">Discover More</p>
                             <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                 <path fillRule="evenodd" clipRule="evenodd" d="M11.0774 4.41083C11.4028 4.08539 11.9305 4.08539 12.2559 4.41083L17.2559 9.41083C17.5814 9.73626 17.5814 10.2639 17.2559 10.5893L12.2559 15.5893C11.9305 15.9148 11.4028 15.9148 11.0774 15.5893C10.752 15.2639 10.752 14.7363 11.0774 14.4108L14.6548 10.8334H3.33333C2.8731 10.8334 2.5 10.4603 2.5 10.0001C2.5 9.53984 2.8731 9.16675 3.33333 9.16675H14.6548L11.0774 5.58934C10.752 5.2639 10.752 4.73626 11.0774 4.41083Z" />
                             </svg>
@@ -106,7 +106,7 @@ export default function WhyUsSection() {
                         </div>
                         <p className="text-xs opacity-60 md:text-base ">Our in-house support, developers, and strategists will make sure you </p>
                         <div className="flex items-center gap-1">
-                            <p className="text-xs font-bold md:text-xl">Discover More</p>
+                            <p className="text-xs font-bold md:text-base">Discover More</p>
                             <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                 <path fillRule="evenodd" clipRule="evenodd" d="M11.0774 4.41083C11.4028 4.08539 11.9305 4.08539 12.2559 4.41083L17.2559 9.41083C17.5814 9.73626 17.5814 10.2639 17.2559 10.5893L12.2559 15.5893C11.9305 15.9148 11.4028 15.9148 11.0774 15.5893C10.752 15.2639 10.752 14.7363 11.0774 14.4108L14.6548 10.8334H3.33333C2.8731 10.8334 2.5 10.4603 2.5 10.0001C2.5 9.53984 2.8731 9.16675 3.33333 9.16675H14.6548L11.0774 5.58934C10.752 5.2639 10.752 4.73626 11.0774 4.41083Z" />
                             </svg>
