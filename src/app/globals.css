@@ -60,6 +60,10 @@
     @apply bg-gradient-to-b from-[#B36BF1] via-[#A057E5] to-[#5F20B0];
   }
 
+  .bg-blur {
+    @apply bg-neutral-0/20;
+  }
+
 }
 
 body {
