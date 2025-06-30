@@ -12,7 +12,7 @@ export default function BenefitSection() {
                 <div className="grid grid-cols-2 grid-rows-2 gap-2">
                     <div className="flex flex-col px-3 py-2 rounded-lg md:px-6 md:py-4 bg-gradient-cover gap-1 text-neutral-0">
                         <h6 className={`${bricolageGrotesque.className} text-base font-bold md:text-xl`}>Health Initiatives</h6>
-                        <p className="text-xs opacity-60 md:text-base">Provide essential medical care and health education to regions where it's</p>
+                        <p className="text-xs opacity-60 md:text-base">Provide essential medical care and health education to regions where it&apos;s</p>
                     </div>
                     <div className="flex flex-col px-3 py-2 rounded-lg md:px-6 md:py-4 border border-primary-light gap-1">
                         <h6 className={`${bricolageGrotesque.className} text-base font-bold md:text-xl`}>Environmental Action</h6>
