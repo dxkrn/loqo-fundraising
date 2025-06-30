@@ -3,6 +3,7 @@ import "./globals.css";
 import { poppins } from "./fonts";
 import PromoBanner from "@/components/PromoBanner";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Loqo Fundraising",
@@ -25,6 +26,7 @@ export default function RootLayout({
             <Navbar />
           </div>
           {children}
+          <Footer />
         </div>
       </body>
     </html>
