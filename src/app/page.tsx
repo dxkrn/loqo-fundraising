@@ -1,4 +1,5 @@
 import BenefitSection from "@/features/home/BenefitSection";
+import EventSection from "@/features/home/EventSection";
 import HeroSection from "@/features/home/HeroSection";
 import PartnerSection from "@/features/home/PartnerSection";
 import ServiceSection from "@/features/home/ServiceSection";
@@ -12,6 +13,7 @@ export default function Home() {
       <BenefitSection />
       <WhyUsSection />
       <ServiceSection />
+      <EventSection />
     </>
   );
 }
